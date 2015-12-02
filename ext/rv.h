@@ -29,9 +29,9 @@ RUBY_EXTERN VALUE rb_cRVStream;
 RUBY_EXTERN VALUE rb_cRVFrame;
 
 // init function
-RUBY_EXTERN void init_mRubyVideo();
-RUBY_EXTERN void init_cRVFormatContext();
-RUBY_EXTERN void init_cRVStream();
-RUBY_EXTERN void init_cRVFrame();
+RUBY_EXTERN void init_RubyVideo();
+RUBY_EXTERN void init_RVFormatContext();
+RUBY_EXTERN void init_RVStream();
+RUBY_EXTERN void init_RVFrame();
 
 #endif

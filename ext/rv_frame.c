@@ -6,6 +6,6 @@
 
 VALUE rb_cRVFrame;
 
-void init_cRVFrame() {
-
+void init_RVFrame() {
+    rb_cRVFrame = rb_define_class_under(rb_mRubyVideo, "RVFrame", rb_cObject);
 }

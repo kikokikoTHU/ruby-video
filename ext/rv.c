@@ -7,10 +7,8 @@
 VALUE rb_mRubyVideo;
 
 void init_RubyVideo() {
-  // register all codec ID
-  av_register_all();
+    // register all codec ID
+    av_register_all();
 
-  rb_mRubyVideo = rb_define_module("RubyVideo");
-
-  init_
+    rb_mRubyVideo = rb_define_module("RubyVideo");
 }
