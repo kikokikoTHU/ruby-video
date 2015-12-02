@@ -6,7 +6,8 @@
 
 VALUE rb_mRubyVideo;
 
-void init_RubyVideo() {
+void
+init_RubyVideo() {
     // register all codec ID
     av_register_all();
 
